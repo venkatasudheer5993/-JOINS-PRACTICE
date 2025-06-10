@@ -61,6 +61,10 @@ FULL OUTER JOIN Simulation:
 
 Since MySQL doesn't support FULL OUTER JOIN directly, it was simulated using a combination of LEFT JOIN and RIGHT JOIN queries joined by a UNION statement. This provided a comprehensive view of all possible data combinations across the three tables.
 
+## FULL OUTER JOIN OUTPUT
+
+![Image](https://github.com/user-attachments/assets/e22260de-0733-44a5-9459-363f4f3d791e)
+
 "Tools and Technologies Used"
 
 MySQL: Used to execute all database operations and SQL commands.
