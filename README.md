@@ -32,19 +32,25 @@ Order_details: Initially included Order_ID, Product_ID, Quantity, Order_Date, an
 Sample data was inserted into each table to mimic a small-scale business scenario involving customer purchases of various products. The inserted records reflect diversity in geography, product categories, and transaction details.
 
 "Join Operations"
+
 INNER JOIN:
+
 This operation connected all three tables (Customer_details, Order_details, and Product_details) to extract specific fields like customer ID, name, order date, and the total order amount (calculated as quantity × price). The query was filtered to only include products with an ID less than 10.
 
 LEFT JOIN:
-Used to retrieve all customers along with any matching orders and product details. It included fields such as product name, quantity, price, and total amount. The data was filtered for products priced above 100 and sorted in ascending order by quantity.
+
+This operation used to retrieve all customers along with any matching orders and product details. It included fields such as product name, quantity, price, and total amount. The data was filtered for products priced above 100 and sorted in ascending order by quantity.
 
 RIGHT JOIN:
+
 Retrieved all products and their associated order and customer data (if available), including the customer's city. This query was filtered to show only orders with a quantity of 40 or less.
 
 FULL OUTER JOIN Simulation:
+
 Since MySQL doesn't support FULL OUTER JOIN directly, it was simulated using a combination of LEFT JOIN and RIGHT JOIN queries joined by a UNION statement. This provided a comprehensive view of all possible data combinations across the three tables.
 
 "Tools and Technologies Used"
+
 MySQL: Used to execute all database operations and SQL commands.
 
 SQL: Utilized for table creation, data insertion, updates, and executing join queries for data analysis.
