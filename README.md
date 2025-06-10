@@ -16,9 +16,11 @@
 ######################
 
 SQL task Summary: "Join Operations on Relational "
+
 This task focuses on implementing and demonstrating different types of SQL JOIN operations in a MySQL relational database using three core tables: Customer_details, Product_details, and Order_details. The main objective was to showcase how data from multiple tables can be combined and analyzed using various joins such as INNER JOIN, LEFT JOIN, RIGHT JOIN, and a simulated FULL OUTER JOIN.
 
 "Database Structure and Data Insertion"
+
 Three primary tables were created:
 
 Customer_details: Contains customer-related data including Customer_ID, Customer_Name, Email, City, and Country.
