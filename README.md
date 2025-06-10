@@ -37,6 +37,10 @@ INNER JOIN:
 
 This operation connected all three tables (Customer_details, Order_details, and Product_details) to extract specific fields like customer ID, name, order date, and the total order amount (calculated as quantity × price). The query was filtered to only include products with an ID less than 10.
 
+### INNER JOIN OUTPUT
+
+![Image](https://github.com/user-attachments/assets/61027acc-752e-41ee-95c0-ad61daca51de)
+
 LEFT JOIN:
 
 This operation used to retrieve all customers along with any matching orders and product details. It included fields such as product name, quantity, price, and total amount. The data was filtered for products priced above 100 and sorted in ascending order by quantity.
@@ -57,7 +61,3 @@ SQL: Utilized for table creation, data insertion, updates, and executing join qu
 
 This task effectively demonstrates how relational data can be integrated and analyzed using SQL joins in a real-world context.
 
-
-### INNER JOIN OUTPUT
-
-![Image](https://github.com/user-attachments/assets/61027acc-752e-41ee-95c0-ad61daca51de)
