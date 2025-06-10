@@ -45,6 +45,10 @@ LEFT JOIN:
 
 This operation used to retrieve all customers along with any matching orders and product details. It included fields such as product name, quantity, price, and total amount. The data was filtered for products priced above 100 and sorted in ascending order by quantity.
 
+## LEFT JOIN OUTPUT
+
+![Image](https://github.com/user-attachments/assets/455b8d05-8129-4ac1-99fd-7b72e8eaa3a1)
+
 RIGHT JOIN:
 
 Retrieved all products and their associated order and customer data (if available), including the customer's city. This query was filtered to show only orders with a quantity of 40 or less.
