@@ -53,6 +53,10 @@ RIGHT JOIN:
 
 Retrieved all products and their associated order and customer data (if available), including the customer's city. This query was filtered to show only orders with a quantity of 40 or less.
 
+## RIGHT JOIN OUTPUT
+
+![Image](https://github.com/user-attachments/assets/277f3049-adb6-4217-bc56-9dec130a2d03)
+
 FULL OUTER JOIN Simulation:
 
 Since MySQL doesn't support FULL OUTER JOIN directly, it was simulated using a combination of LEFT JOIN and RIGHT JOIN queries joined by a UNION statement. This provided a comprehensive view of all possible data combinations across the three tables.
