@@ -56,3 +56,8 @@ MySQL: Used to execute all database operations and SQL commands.
 SQL: Utilized for table creation, data insertion, updates, and executing join queries for data analysis.
 
 This task effectively demonstrates how relational data can be integrated and analyzed using SQL joins in a real-world context.
+
+
+### INNER JOIN OUTPUT
+
+![Image](https://github.com/user-attachments/assets/61027acc-752e-41ee-95c0-ad61daca51de)
