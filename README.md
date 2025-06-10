@@ -37,7 +37,7 @@ INNER JOIN:
 
 This operation connected all three tables (Customer_details, Order_details, and Product_details) to extract specific fields like customer ID, name, order date, and the total order amount (calculated as quantity × price). The query was filtered to only include products with an ID less than 10.
 
-### INNER JOIN OUTPUT
+### OUTPUT:
 
 ![Image](https://github.com/user-attachments/assets/61027acc-752e-41ee-95c0-ad61daca51de)
 
@@ -45,7 +45,7 @@ LEFT JOIN:
 
 This operation used to retrieve all customers along with any matching orders and product details. It included fields such as product name, quantity, price, and total amount. The data was filtered for products priced above 100 and sorted in ascending order by quantity.
 
-## LEFT JOIN OUTPUT
+## OUTPUT:
 
 ![Image](https://github.com/user-attachments/assets/455b8d05-8129-4ac1-99fd-7b72e8eaa3a1)
 
@@ -53,7 +53,7 @@ RIGHT JOIN:
 
 Retrieved all products and their associated order and customer data (if available), including the customer's city. This query was filtered to show only orders with a quantity of 40 or less.
 
-## RIGHT JOIN OUTPUT
+##  OUTPUT:
 
 ![Image](https://github.com/user-attachments/assets/277f3049-adb6-4217-bc56-9dec130a2d03)
 
@@ -61,7 +61,7 @@ FULL OUTER JOIN Simulation:
 
 Since MySQL doesn't support FULL OUTER JOIN directly, it was simulated using a combination of LEFT JOIN and RIGHT JOIN queries joined by a UNION statement. This provided a comprehensive view of all possible data combinations across the three tables.
 
-## FULL OUTER JOIN OUTPUT
+## OUTPUT:
 
 ![Image](https://github.com/user-attachments/assets/e22260de-0733-44a5-9459-363f4f3d791e)
 
